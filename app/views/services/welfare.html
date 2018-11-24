@@ -5,23 +5,35 @@
 {% endblock %}
 
 {% block beforeContent %}
-  <a class="govuk-back-link" href="/url/of/previous/page">Back</a>
+<a class="govuk-back-link" href="/url/of/previous/page">Back</a>
 {% endblock %}
 
 {% block content %}
 
-  <div class="govuk-grid-row">
+<div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
 
-      <h1 class="govuk-heading-xl">
-        Heading goes here
-      </h1>
+        <h1 class="govuk-heading-xl">
+        Welfare
+        </h1>
 
-      <p>This is a paragraph of text. It explains in more detail what has happened and wraps across several lines.</p>
+        <p>You can find help and information about</p>
 
-      <p>This paragraph has a link to <a href="/url/of/onward/page">find out more about this subject</a>.</p>
+        <ul class="govuk-list">
+            <li>
+                <a class="govuk-link" href="/services/welfare/mental-welbeing">Mental Welbeing</a>
+            </li>
+            <li>
+                <a class="govuk-link" href="#">Assessing your support</a>
+            </li>
+            <li>
+                <a class="govuk-link" href="#">Bereavement</a>
+            </li>
+          
+        </ul>
 
+
+        </div>
     </div>
-  </div>
 
-{% endblock %}
+    {% endblock %}
