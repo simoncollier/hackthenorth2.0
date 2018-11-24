@@ -30,7 +30,27 @@
         {% if serviceName %} {{ serviceName }} {% endif %}
       </h1>
 
-      <p>Here are the different types of support available</p>
+      <p>Here are the different types of support available:</p>
+
+      {% from "details/macro.njk" import govukDetails %}
+
+      <ul class="govuk-list">
+        <li>
+          <a class="govuk-link" href="#">Health</a>
+        </li>
+        <li>
+          <a class="govuk-link" href="#">Welfare</a>
+        </li>
+        <li>
+          <a class="govuk-link" href="#">Employment</a>
+        </li>
+        <li>
+          <a class="govuk-link" href="#">Housing</a>
+        </li>
+        <li>
+          <a class="govuk-link" href="#">Education</a>
+        </li>
+      </ul>
 
     </div>
 
